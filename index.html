@@ -16,16 +16,15 @@
     <header class="main-header">
         <nav>
             <h1 id="logo">Franck Guareau</h1>
-            <input type="checkbox" class="menu-checked"/>
             <ul class="nav-links">
                 <li><a href="#about">A propos</a></li>
                 <li><a href="#work">Travaux</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
             </div>
         </nav>
     </header>
@@ -42,7 +41,7 @@
                 <img src="/img/plant2.png" class="plant2 plant">
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="about-image">
                 <h5>MINIMAL</h5>
                 <img src="./img/about-image.png" alt="Picture">
@@ -51,38 +50,41 @@
                 <h2>Franck Guareau</h2>
                 <div class="about-life">
                     <h3>My life</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis dolores minima soluta quam quia. Modi, delectus rem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis
+                        dolores minima soluta quam quia. Modi, delectus rem!</p>
                 </div>
                 <div class="about-work">
                     <h3>My work</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis dolores minima soluta quam quia. Modi, delectus rem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis
+                        dolores minima soluta quam quia. Modi, delectus rem!</p>
                 </div>
                 <div class="about-contact">
                     <h3>Get in touch</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis dolores minima soluta quam quia. Modi, delectus rem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt voluptatum blanditiis
+                        dolores minima soluta quam quia. Modi, delectus rem!</p>
                 </div>
             </div>
-        </section> 
-        <section class="gallery">
+        </section>
+        <section id="work" class="gallery">
             <header class="gallery-head">
                 <h2>Photos de qualités</h2>
-            <p>Mon travail porte sur le regard féminin</p>
-        </header>
+                <p>Mon travail porte sur le regard féminin</p>
+            </header>
             <img class="gallery1" src="./img/gallery-1.jpg" alt="">
             <img class="gallery2" src="./img/gallery-2.jpg" alt="">
             <img class="gallery3" src="./img/gallery-3.jpg" alt="">
             <img class="gallery4" src="./img/gallery-4.jpg" alt="">
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="form-wrapper flex">
-                <h2>Get in <br/> <span>Touch.</span> </h2>
-                <form >
+                <h2>Get in <br /> <span>Touch.</span> </h2>
+                <form>
                     <label for="email">Votre Email:</label>
                     <input type="email" id="email" required>
                     <button type="submit">Envoyer</button>
                 </form>
             </div>
-            <img src="./img/contact-image.jpg" alt=""/>
+            <img src="./img/contact-image.jpg" alt="" />
 
         </section>
     </main>
@@ -94,6 +96,7 @@
             <li><a href="#"><img src="./img/instagram 1.svg" alt=""></a></li>
         </ul>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
